@@ -1,0 +1,71 @@
+*{margin: 0;
+padding: 0;}
+body{}
+img{}
+header{max-width: 100%;
+background: lightblue;
+box-shadow: 0 0 10px #0000001f; }
+nav{}
+nav ul {display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li {list-style: none;}
+nav ul li a{color: #000;
+text-decoration: none;
+display: block;
+padding: 10px 15px;
+font-size: 20px;
+text-transform: capitalize;}
+nav ul li a img{width: 100px}
+
+
+.formSection{padding: 70px 0;background-image: url(../images/background.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;background-color: #e2e4e6;background-blend-mode: soft-light;}
+.form-box{width: 700px;margin: auto;text-align: center;/* background: #fff; */}
+h1{font-size: 30px;}
+p{font-size: 18px;}
+
+form{text-align: left;
+margin-top: 30px;}
+.input{width: 100%;
+padding: 10px 15px;
+border: 1px solid lightblue;
+margin-bottom: 15px;
+color: lightblue;
+font-size: 18px;}
+label{font-size: 24px;
+font-style: italic;
+margin-right: 20px;}
+span{}
+
+label b{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+}
+input[type="submit"]{
+    display: block;
+    padding: 10px 30px;
+    font-size: 18px;
+    background: lightblue;
+    border: 2px solid lightblue;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: transparent;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: lightblue;
+}
+::selection{
+    background: lightblue;
+}
